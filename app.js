@@ -16,7 +16,6 @@ Vue.createApp({
       this.taskList.push({
         title: this.inputValue,
         id: Date.now(),
-        complete: false,
       });
       this.inputValue = "";
     },
